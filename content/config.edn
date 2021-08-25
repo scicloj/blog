@@ -18,7 +18,7 @@
  :sass-src                     []
  :sass-path                    "sass"
  :theme                        "scicloj"
- :resources                    ["images"]
+ :resources                    ["images" ".nojekyll"]
  :keep-files                   [".git"]
  :disqus?                      false
  :disqus-shortname             ""
