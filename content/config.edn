@@ -1,13 +1,13 @@
-{:site-title                   "My Awesome Blog"
- :author                       "Bob Bobbert"
- :description                  "This blog is awesome"
- :site-url                     "http://blogawesome.com/"
+{:site-title                   "SciCloj Clojure Data Science community"
+ :author                       "SciCloj"
+ :description                  "Blog for the Clojure Data community"
+ :site-url                     "https://scicloj.github.io/"
  :post-root                    "posts"
  :page-root                    "pages"
- :post-root-uri                "posts-output"
- :page-root-uri                "pages-output"
- :tag-root-uri                 "tags-output"
- :author-root-uri              "authors-output"
+ :post-root-uri                "posts"
+ :page-root-uri                "pages"
+ :tag-root-uri                 "tags"
+ :author-root-uri              "authors"
  :public-dest                  "public"
  :blog-prefix                  "/blog"
  :rss-name                     "feed.xml"
@@ -17,8 +17,8 @@
  :archive-group-format         "yyyy MMMM"
  :sass-src                     []
  :sass-path                    "sass"
- :theme                        "blue"
- :resources                    ["img"]
+ :theme                        "scicloj"
+ :resources                    ["images"]
  :keep-files                   [".git"]
  :disqus?                      false
  :disqus-shortname             ""
@@ -31,4 +31,5 @@
  :hide-future-posts?           true
  :klipse                       {}
  :description-include-elements #{:p :h1 :h2 :h3 :h4 :h5 :h6}
- :debug?                       false}
+ :debug?                       false
+ :img-scicloj-banner           "https://raw.githubusercontent.com/scicloj/graphic-design/live/scicloj-community-logo-text-banner.png"}
