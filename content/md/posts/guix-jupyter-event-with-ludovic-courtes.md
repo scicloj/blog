@@ -1,6 +1,7 @@
 {:title "Meeting Video: Guix-Jupyter with Ludovic Courtès"
  :layout :post
  :toc false
+ :date "2020-03-07"
  :author "Daniel Slutsky"
  :tags  ["reproducibility" "notebooks"]}
 
@@ -13,6 +14,8 @@ Kindly, Ludovic Courtès of the Guix community agreed to give a talk at this sci
 Here are [the video](https://youtu.be/GFyv3qUXHpU) and [the slides](https://github.com/scicloj/scicloj/blob/master/resources/slides/scicloj-guix-jupyter.pdf).
 
 Now, let us discuss what it is about.
+
+<!-- more -->
 
 ## Guix
 
@@ -34,7 +37,7 @@ We began with a talk, where Ludovic gave a general introduction to Guix and repr
 
 Then, we moved to an open discussion. A nice conversation emerged, with three of the participants: Martin Kavalar, the CEO of [Nextjournal](http://nextjournal.com/), a web notebook built on principles of immutability and reproducibility; Klaus Harbo, who is, among other things, the maintainer of [Clojupyter](https://github.com/clojupyter/clojupyter), a Clojure Jupyter kernel; and Daniel Szmulewicz, who has been studying various dialects of Scheme, and builds Clojure development tools on top of the Maven ecosystem.
 
-We discussed some technical aspects and usability aspects of Guix, as well as some conceptual questions. Interesting dilemmas arise when the Guix approach towards libre software, pure functions, reproducibility, security and transparency is used alongside other pieces of software. We also discussed some issues of possibly bringing Clojure ecosystem more fully into the Guix ecosystem. 
+We discussed some technical aspects and usability aspects of Guix, as well as some conceptual questions. Interesting dilemmas arise when the Guix approach towards libre software, pure functions, reproducibility, security and transparency is used alongside other pieces of software. We also discussed some issues of possibly bringing Clojure ecosystem more fully into the Guix ecosystem.
 
 ## Thanks!
 
