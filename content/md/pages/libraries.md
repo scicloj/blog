@@ -3,7 +3,10 @@
  :page-index 4
  :navbar? true
  :toc true}
- 
+
+> NOTE: Feedback is greatly appreciated on these libraries, which were discovered over the last few years.  Some libraries may be missing and others may no longer be relevant.
+> Your feedback and Pull Requests are most gratefully appreciated
+
 To supplement our opinionated blog posts analysing the ecosystem, here is a less-opinionated, plain list of relevant libraries written by Clojurians. Not all libraries mentioned here are affiliated with Scicloj, but we seek to be in dialogue with library authors as much as possible.
 
 Do you know about anything relevant that is missing here? - [Let us talk](../about/#where)!
@@ -49,7 +52,7 @@ We tag libraries with the field they are relevant to.
 - [Neanderthal](https://neanderthal.uncomplicate.org/) (`act`): `array`,`linalg`,`native`,`gpu` - matrix and linear algebra in Clojure
 - [jutsu.matrix](https://github.com/hswick/jutsu.matrix): `array`,`linalg`,`native`,`gpu` - bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
 - [core.matrix](https://github.com/mikera/core.matrix): `array`,`linalg`,`native`,`cljs` - matrix abstractions, supporting diffent backends
-- [denisovan](https://github.com/cailuno/denisovan): `array`,`linalg`,`native`,`gpu` - Neanderthal backend for core.matrix 
+- [denisovan](https://github.com/cailuno/denisovan): `array`,`linalg`,`native`,`gpu` - Neanderthal backend for core.matrix
 
 ## Optimization
 - [matlib](https://github.com/atisharma/matlib) (`act`): `opt` - optimisation and control theory tools and convenience functions based on Neanderthal.
@@ -64,7 +67,7 @@ We tag libraries with the field they are relevant to.
 - [Pink-Gorilla](https://github.com/pink-gorilla) (`act`,`exp`, temporary name): `vis`,`lit`,`ui`,`cljs` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
 - [gg4clj](https://github.com/JonyEpsilon/gg4clj): `vis`,`r` - a clojure DSL for creating ggplot2 plots using R
 - [gg4clj port](https://github.com/pink-gorilla/gg4clj) by the [Pink Gorilla](https://pink-gorilla.github.io) project
-- [Quil](https://github.com/quil/quil): `vis` - a clojure/clojuresctit wrapper for Processing 
+- [Quil](https://github.com/quil/quil): `vis` - a clojure/clojuresctit wrapper for Processing
 - [thi-ng/geom](https://github.com/thi-ng/geom): `vis`,`cljs` - 2d/3d geometry toolkit
 - [rmarkdown-clojue](https://github.com/genmeblog/rmarkdown-clojure): `vis`, `lit` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
 - [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html): `lt` - executing Clojure inside Emacs Org-mode documents
@@ -87,7 +90,7 @@ In addition to Oz, Hanami and Gorilla-plot mentioned above, here is a list of de
 - [Optikon](https://github.com/stathissideris/optikon): `vis`,`vega` - a command line tool that wraps Vega and Vega-lite - using GraalVM polyglot programming
 - [Vegafx](https://github.com/joinr/Vegafx): `vis`,`vega` - a static-site viewer using javafx that renders Vega specs
 - [darkstar](https://github.com/appliedsciencestudio/darkstar): `vis`,`vega` - a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run.
- 
+
 - [emacs-Vega-view](https://github.com/appliedsciencestudio/emacs-Vega-view) (`act`): `vis`, `vega` - an emacs mode to facilitate interactive data visualization using Vega from within emacs - supports elisp, json and clojure notations
 
 ## Data processing
@@ -97,9 +100,9 @@ In addition to Oz, Hanami and Gorilla-plot mentioned above, here is a list of de
 - [xforms](https://github.com/cgrand/xforms): `data`,`cljs`,`xform` - a collection of transduces and reducing functions
 - [Semantic Csv](https://github.com/metasoarous/semantic-csv): `csv`,`cljs` - higher level csv parsing/processing
 
-## Geospatial processing 
+## Geospatial processing
 - [geo](https://github.com/Factual/geo) (`act`): `geo` - unifying several JVM libraries for geoprocessing with a Clojure API
-- [geo-clj](https://github.com/r0man/geo-clj) (`act`): `geo`,`cljs` - encoding/decoding of geographic datatypes 
+- [geo-clj](https://github.com/r0man/geo-clj) (`act`): `geo`,`cljs` - encoding/decoding of geographic datatypes
 - [aurelius](https://github.com/willcohen/aurelius) (`act`,`exp`): `geo`, `xform` - transducible analysis of geospatial features
 
 ## Dataframe-like structures
@@ -155,13 +158,13 @@ In addition to Oz, Hanami and Gorilla-plot mentioned above, here is a list of de
 - [other R interop libraries](https://github.com/scicloj/clojisr/blob/master/doc/existing_libraries.md)
 - [from-scala](https://github.com/t6/from-scala): `interop` - interop with Scala
 
-## Parralel computing 
+## Parralel computing
 - [claypoole](https://github.com/TheClimateCorporation/claypoole) - threadpool-based parallel versions of Clojure functions such as `pmap`, `future`, and `for`
 - [parallel](https://github.com/reborg/parallel) - parallel-enabled functions, addditional transducers and supporting utilities
 - [tesser](https://github.com/aphyr/tesser) - a library for concurrent & commutative folds, including some statistical tasks and Hadoop support
 - [tech.parallel](https://github.com/techascent/tech.parallel) (`act`) - parallelization and threading primitives
 
-## Distributed computing 
+## Distributed computing
 - [overseer](https://github.com/framed-data/overseer) - a library for building and running data pipelines
 - [titanoboa](https://www.titanoboa.io) - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
 ### Hadoop
