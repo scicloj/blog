@@ -4,6 +4,10 @@
  :navbar? true
  :toc true}
 
+> NOTE: Feedback is greatly appreciated on the reading list, as many articles and references were discovered over the last few years.  Some content may be missing and others may no longer be relevant.
+> Your feedback and Pull Requests are most gratefully appreciated
+
+
 Here are some suggested reading materials.
 
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - [Let us talk](../about/#where)!
@@ -22,7 +26,7 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 - [Applied Science blog](http://www.appliedscience.studio/articles/index.html) by Dave Liepmann, Matt Huebert and Jack Rusher - Deep learning, data visualization, data processing
 
-## Tutorials 
+## Tutorials
 
 Tutorials play an important role on our journey to make Clojure an accessible, friendly platform for data science.
 
@@ -50,7 +54,7 @@ Of course, they allow us to share and learn existing methods and practices. No l
 
 ### Transducers
 - [A general introduction](https://nbviewer.jupyter.org/github/amitramon/clojure-keynotes/blob/master/notebooks/transducers.ipynb) by Amit Ramon
- 
+
 ### Machine Learning
 #### XGBoost
 - clj-boost - [A tutorial](https://towardsdatascience.com/machine-learning-clojure-xgboost-clj-boost-e0d1339df1e1) by Alan Marazzi
