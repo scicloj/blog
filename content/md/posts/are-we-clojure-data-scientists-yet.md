@@ -1,10 +1,10 @@
 {:title "Are we scientists yet?"
  :layout :post
  :toc true
+ :date "2019-05-23"
  :author "Alan Marazzi"
  :tags  ["data science"]}
 
-> [Previous version of this post](https://scicloj.github.io/posts/2019-01-21-clojure-scientists/)
 
 The Clojure community is moving a lot lately on the data science front, but we were feeling we needed some organization and more open discussion about these themes. [This is the Clojureverse thread](https://clojureverse.org/t/online-meeting-clojure-data-science/3503) that started it all. Here we try to collect and record the current state of things, and I would like to stress the fact that this is owned by the community!
 
@@ -14,6 +14,8 @@ The structure of this:
 - **Notable examples** - what's considered standard nowadays in other languages
 - **Status** - the current status of the matter
 - **Next** - the next best actions
+
+<!-- more -->
 
 # Multidimensional arrays, Linear-algebra
 
@@ -207,7 +209,7 @@ Something is moving lately in this area:
 
 ## Next
 
-We can still decide wether we want to pursue an [R](https://www.r-project.org/) model (with many small libraries) or the [scikit-learn](https://scikit-learn.org/) way (one big framework with batteries included), the important thing should be to have a common interface to algorithms and utilities. 
+We can still decide wether we want to pursue an [R](https://www.r-project.org/) model (with many small libraries) or the [scikit-learn](https://scikit-learn.org/) way (one big framework with batteries included), the important thing should be to have a common interface to algorithms and utilities.
 
 Such interface would be the opposite of what happens in the R world, where developers and researchers are more free to deliver their ideas (R is usually the first language to get implementations of new algorithms), but at the same time the cognitive overhead for users is pretty high.
 

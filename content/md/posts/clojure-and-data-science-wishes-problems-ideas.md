@@ -1,5 +1,6 @@
-{:title "Clojure and data: wishes, problems, and ideas"
+{:title "Clojure and Data Science: wishes, problems and ideas"
  :layout :post
+ :date "2019-10-18"
  :toc true
  :author "Sami Kallinen, Konrad Kühne, Daniel Slutsky"
  :tags  ["community"]}
@@ -8,14 +9,15 @@ On Sunday afternoon, Sep. 29th 2019, we had a meeting at the 8-bit-sheep office 
 
 We ended up having a long conversation about our goals and wishes, as individuals and as parts of a community. A lot of personal stories and wild ideas were running in the room. Later Sami took us on a ride around Helsinki, which opened our tired minds even wider.
 
-This blog post is a brief summary of those parts of the conversation that relate to building the Clojure data science community. Hopefully, the list of problems and ideas that we offer here can serve as an actionable suggestion, as well as a beginning of a wider discussion. 
+This blog post is a brief summary of those parts of the conversation that relate to building the Clojure data science community. Hopefully, the list of problems and ideas that we offer here can serve as an actionable suggestion, as well as a beginning of a wider discussion.
 
 For the actionable part, you are invited to jump to the [Goals](#goals) section below. Hopefully, the parts preceding it are useful too.
 
 Sami Kallinen, Konrad Kühne, Daniel Slutsky
 
+<!-- more -->
 
-## TL;DR
+## Overview
 
 We discussed some of the challenges of an expanding community, and suggested some concrete projects to tackle some of these challenges:
 
@@ -56,7 +58,7 @@ We also discussed the growth of the Scicloj community so far. It began as an int
 
 Once central question we discussed was whether Clojure could become a beginner-friendly tool in the field of data analysis.
 
-Will we reach a state where newcomers can easily find clear Clojure paths to solve the data problems that they face? 
+Will we reach a state where newcomers can easily find clear Clojure paths to solve the data problems that they face?
 
 ### Convergence
 
@@ -64,11 +66,11 @@ A related problem is the so-called [Lisp Curse](http://www.winestockwebdesign.co
 
 For actual beginner-friendliness to arise, probably some clear main paths would rather be marked. Moreover, convergence around popular, well accepted ways seems essential to allow for the critical mass that enables enough questions and answers, enough tutorials, etc.
 
-Also, for the ecosystem to get far enough as a platform for data science, it seems important for libraries to be able to build upon each other. 
+Also, for the ecosystem to get far enough as a platform for data science, it seems important for libraries to be able to build upon each other.
 
 ### Cooperation
 
-One expression of that tendency, not to converge to common practices, can be seen in the fact that it seems uncommon for Clojure libraries to use abstractions defined by others. 
+One expression of that tendency, not to converge to common practices, can be seen in the fact that it seems uncommon for Clojure libraries to use abstractions defined by others.
 
 In the field of data science and scientific computing, there have been some opposite tendencies.
 
@@ -164,7 +166,7 @@ We suggest at least to create some more learning and discussion around these exi
 We need to constantly challenge ourselves and the ecosystem we are building: How accessible is it? Where are the main obstacles? What could be done to improve? To do that, we need to expose ourselves, and to expose Clojure, to diverse groups of people.
 
 We suggest to start a series of meetings that will experiment with different ways of doing that. Following Sami's experience in similar situations (such as teaching groups of young people to program), we discussed different variations of such meetings:
-- tutorials about data analysis with clojure 
+- tutorials about data analysis with clojure
 - facilitated discussions
 - "Just open a REPL" and play with some data
 
@@ -172,7 +174,7 @@ Different formats of group coding could be used. Variating on the idea of "codin
 
 Different combinations of online and physical meetings might be considered. One possible idea is to conduct several concurrent local meetups in different locations, with an online communication between them.
 
-Some meetings can be somewhat internal community meetings; other can reach out and invite curious people who are willing to hear. 
+Some meetings can be somewhat internal community meetings; other can reach out and invite curious people who are willing to hear.
 
 One possibility would be to create a series of meetings that build up some body of knowledge. Another mode would be of singular meetings, that may touch a topic without continuation.
 
@@ -200,7 +202,7 @@ We actually tried that with a [meetup](https://www.meetup.com/Helsinki-Clojure-M
 
 Now, we wish to have something longer, broader, and more carefully planned.
 
-We suggest to plan a 1-day meetup close to one of the upcoming Clojure conferences, and encourage the Clojure data science community to arrive on that day. 
+We suggest to plan a 1-day meetup close to one of the upcoming Clojure conferences, and encourage the Clojure data science community to arrive on that day.
 
 Probably, taking into account the locations of most people currently involved, we need to try that once in Europe and once in the US. One of the close-but-not-too-close opportunities is [ClojureD](https://clojured.de), on Feb. 29th, 2020.
 
@@ -236,4 +238,3 @@ Let us hope we can now somehow continue the discussion in a wider forum, across 
 ## Recommended reading
 
 We wish to thank Daniel Szmulewicz for recommending to look into Pieter Hintjens' writings. In particular, the ideas presented in [Building Online Communities](http://hintjens.com/blog:117) may trigger some thought around the dilemmas we are discussing here.
-

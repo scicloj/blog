@@ -1,14 +1,13 @@
 {:title "Data Science in Clojure at Rails Girls Summer of Code"
  :layout :post
  :toc false
+ :date "2020-03-05"
  :author "Daniel Slutsky"
  :tags  ["data science" "diversity"]}
 
 In this post I wish to write briefly about the ["data science in clojure"](https://teams.railsgirlssummerofcode.org/projects/369-data-science-in-clojure) project in Rails Girls Summer of Code 2020.
 
 Hoping to encourage people to join as [students](https://railsgirlssummerofcode.org/students/application/) or [coaches](https://railsgirlssummerofcode.org/guide/coaching/), I will try to argue why (in my opinion) it is important to the healthy growth of the clojure data science ecosystem: not only by actively addressing our goal to create a welcoming community, but also by creating a continuous process of experimentation and reflection about the usability of the emerging stack.
-
-----
 
 For several years, [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/) has been organizing Summer of Code projects, where students of underrepresented groups (specifically women and non-binary people) work on open source projects for a monthly stipend during the summer. The explicit main goal is to bring more diversity into Open Source.
 
@@ -18,13 +17,13 @@ Two Clojure projects were accepted to RGSoC for 2020:
 
 Here, we will talk about the latter.
 
-----
+<!-- more -->
 
 At scicloj, diversity is an explicit goal as well. Some of the other goals we have been discussing recently are making it easy to get involved and contribute, experimenting with the tools we are building and seeking a cohesive grammer for data science in Clojure. The RGSoC project will be addressing all of these goals.
 
 As [argued](https://clojureverse.org/t/online-meeting-clojure-data-science/3503/17) by Chris Nuernberger in one of the discussions that anticipated the creation of scicloj, a case-driven approach is an excellent way to continuously verify that we are creating a useful stack. Indeed, this principle has been affecting the growth of the clojure data science ecosystem in the last year. Writing [tutorials](https://scicloj.github.io/pages/reading/#tutorials) has been our main way to learn about the state of the stack, and realize what may still be missing. At the same time, it has been a way to share what was already becoming possible.
 
-Following this principle, the first component of the "data science in clojure" RGSoC project will **looking into data problems**. The team will choose various old & new data science problems, and solve them in Clojure. 
+Following this principle, the first component of the "data science in clojure" RGSoC project will **looking into data problems**. The team will choose various old & new data science problems, and solve them in Clojure.
 
 This will teach us about different aspects of usability of the emerging stack, not only in terms of functionality, but also in terms of clarity, simplicity and ease. In this way, the team will take an extremely important role in the ongoing discussion of scicloj regarding our goals and priorities.
 
@@ -41,10 +40,8 @@ Often, discussing and solving specific problems can be a source for inspiration 
 
 Thus, in the forth component of the RGSoc project, the team members will be **engaging in general community discussions**, sharing their thoughts and experiences.
 
-----
+## Summary
 
 There are many ways to help out, and the two main ones are joining join the project as [students](https://railsgirlssummerofcode.org/students/application/) or [coaches](https://railsgirlssummerofcode.org/guide/coaching/). These are not small commitments. They require some careful thought and dedication. But I strongly believe that they may have huge impact on our journey, in unique and beautiful ways.
 
 Scicloj has been going through a long, spiral path of growing the ecosystem, that will eventually converge to a simple, stable, flexible and friendly environment for data science. On our way towards that goal, fresh opinions and diverse points of view are extremely important. I strongly believe that the RGSoC will allow scicloj this kind of refreshment. That is one of the reasons I am so hopeful about this project.
-
-
